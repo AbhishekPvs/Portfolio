@@ -1,5 +1,9 @@
 
 import './App.css';
+import './About.js';
+import './Resume.js'
+import About from './About.js';
+import Resume from './Resume.js';
 
 function App() {
   return (
@@ -12,7 +16,8 @@ function App() {
         <button>Contact</button>
       </header>
       <body className="App-body">
-        <h1>I am Venkata Sai Abhishek</h1>
+        <About/>
+        <Resume/>
       </body>
       <footer>
 
